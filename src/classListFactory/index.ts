@@ -16,7 +16,7 @@ export const classNamesFactory: factoryCreator = (blockName: element) => {
     }
 
     if (typeof arg0 == "object") {
-      let toAdd: classList = { ...arg0 };
+      let toAdd: mods = { ...arg0 };
       if (typeof mods == "object") {
         toAdd = { ...toAdd, ...mods };
       }
